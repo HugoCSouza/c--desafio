@@ -36,3 +36,12 @@ Por último, deverá ser feito um menu interativo com as seguintes ações imple
 
 ## Solução
 O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+
+
+## O que foi realizado
+Foi entregue conforme o solicitado, executando todas as funções desejadas. Adicionalmente foi incremetada duas caracteristicas no código:
+* Todas as placas devem estar no padrão LLL-NNNN, sendo L letras e N números, necessitando no hífen
+* Todas as placas serão salvas com letras maiúsculas
+* Uma função de validação de placa
+
+O projeto foi finalizado e será arquivado. Caso deseje enviar uma mudança, sinta-se a vontade a abrir uma issue.
