@@ -27,7 +27,7 @@ namespace DesafioFundamentos.Models
                 veiculos.Add(placa);
                 Console.WriteLine($"O veículo de placa {placa} foi registrado!");
             }
-            else if(veiculos.Contains(placa))
+            else if (veiculos.Contains(placa))
             {
                 Console.WriteLine($"O veículo de placa {placa} já se encontra no estacionamento!");
             }
@@ -69,7 +69,7 @@ namespace DesafioFundamentos.Models
                 else
                 {
                     Console.WriteLine("Desculpe, esse veículo não está estacionado aqui. Confira se digitou a placa corretamente");
-                } 
+                }
             }
             else
             {
@@ -83,8 +83,10 @@ namespace DesafioFundamentos.Models
             if (veiculos.Any())
             {
                 Console.WriteLine("Os veículos estacionados são:");
-                // TODO: Realizar um laço de repetição, exibindo os veículos estacionados
-                // *IMPLEMENTE AQUI*
+                for (int i = 0; i < veiculos.Count; i++)
+                {
+                    Console.WriteLine($"Veículo nº {i+1}: {veiculos[i]}");
+                }
             }
             else
             {
